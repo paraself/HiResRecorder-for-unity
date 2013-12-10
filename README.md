@@ -1,11 +1,14 @@
 HiResRecorder-for-unity
 =======================
 
+Intro
+-----
+
 HiResRecorder is a unity3D plugin for capturing high resolution in-game video.
 Its mechanism is quite simple - capture each frame as image sequences at a desired frame rate, if necessary, it'll slow down the game in order to maintain the desired framerate.
 
 HiResRecorder is useful when:
-1. You want super high resolution at which your game is origirnal running.
+1. You want super high resolution at which your game is origirnal running.<br/>
 2. You want to showcase your game via online video service, like YouTube or Vimeo.
 3. You want to demonstrate your cutscene or animation.
 
