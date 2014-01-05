@@ -18,7 +18,7 @@ Usually this plugin will try to slow down your game to get a smooth image squenc
 1. Drag the HiResRecorder prefab into the hierarchy of the master scene. The prefab will be persistent through scenes.<br />
 2. click on the HiResRecorder prefab, and set the toggle key to record, and the desired framerate for you video. Default are key "C" and fps at 30.<br />
 3. When in game, toggle the key to recording image sequences. Image sequences are created under the Application.datapath, where a folder named HiResRecorder should contain every sequences. Each time you enable recording, it will generate a sub folder inside this HiResRecorder folder.<br />
-4. Note that it's better to build the application, then record img sequences in a built application. Recording in editor though works but quite laggy.<br />
+4. Note that it's better to build the unity project, then record img sequences in a built application. Recording in editor though works but quite laggy.<br />
 
 A showcase work where I used to export FYSH's in game video at 720P.<br />
 https://vimeo.com/69785071 <br />
