@@ -2,10 +2,11 @@ using UnityEngine;
 using System.Collections;
 using System.IO;
 
+
 public class HiResRecorder : MonoBehaviour {
 	
-	public KeyCode key;
-	public int frameRate;
+	public KeyCode key = KeyCode.C;
+	public int frameRate = 30;
 	
 	bool isCapturing = false;
 	string prefix,path;
@@ -16,7 +17,11 @@ public class HiResRecorder : MonoBehaviour {
 	void Start () {
 		DontDestroyOnLoad(this.gameObject);
 		fixedDeltaTimeCache = Time.fixedDeltaTime;
-		prefix = Application.dataPath+"/HiResRecorder/";
+		if (Application.isEditor)
+			prefix = Application.dataPath+"/../HiResRecorder/";
+		else 
+			prefix = Application.dataPath+"/HiResRecorder/";
+		Debug.Log("IMG sequence will be saved to "+prefix);
 	}
 	
 	
@@ -48,3 +53,5 @@ public class HiResRecorder : MonoBehaviour {
 		}
 	}
 }
+
+
