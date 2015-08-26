@@ -21,7 +21,7 @@ Usually this plugin will try to slow down your game to get a smooth image squenc
 4. Note that it's better to build the unity project, then record img sequences in a built application. Recording in editor though works but quite laggy.<br />
 
 A showcase work where I used to export FISH's in game video at 720P.<br />
-[https://vimeo.com/69785071]() <br />
+[https://vimeo.com/69785071](https://vimeo.com/69785071) <br />
 
 Any feedback is greatly welcome.<br />
 Feel free to drop an email at paraself[at]gmail.com.
